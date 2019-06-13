@@ -1,0 +1,49 @@
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: center;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        padding: 0 2rem !important;
+        color: #fff !important;
+    }
+    .navbar-light .navbar-nav .nav-item:first-child{
+        border-left: none
+    }
+    .navbar-light .navbar-nav .nav-item{
+            border-left: 2px solid #fff;
+    }
+    }
+    @media(max-width:991px){
+        .header-outer{
+          display: none;
+        }
+        .travel-insurance__image{
+          display: none;
+        }
+        .content-bottom__menu li{
+          font-size: 10px
+        }
+      
+        .maincontainer{
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 0px !important
+        }
+      }
+      @media(max-width:575px){
+    .content{
+      padding: 0 17px !important
+    }
+    .content-bottom__menu li{
+      width: 25% !important
+    }
+      }
+    
+      @media(max-width:767px){
+        .content-inner{
+          padding: 30px 27px 0 !important
+        }
+        .footer__content {
+          padding: 15px 50px 0;
+      }
+      }

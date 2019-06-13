@@ -1,0 +1,80 @@
+.content-bottom__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin: 0px;
+    background: url('../image/borderbottom.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: bottom;  
+  }
+
+  .content-bottom__menu li{
+    width: 20%;
+    list-style: none;
+    text-align: center;
+    border-right: 2px solid #444
+  }
+  .content-bottom__menu li:last-child{
+    border-right: none
+  }
+  .purchase-box{
+    border: 1px solid #444;
+    height: 100px;
+  }
+  .nomargin{
+margin: 0 !important
+  }
+  .payment{
+    padding: 5px 0;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+  }
+  .margin-bottom7rem{
+    margin-bottom:7rem 
+  }
+  .billing-info{
+    padding: 10px 0 0px 8px;
+    border: 1px solid #444
+  }
+  .content-heading2{
+    font-size: 16px
+  }
+  .travel-insurance{
+    border: 1px solid #cccccc;
+    margin: 0 20px !important
+  }
+  .billing-info p{
+    margin: 0
+  }
+  .paddtop-11{
+    padding-top:11px 
+  }
+  .paddtop-30{
+    padding-top:30px 
+  }
+
+  .content-inner{
+    padding: 30px 108px 0 108px
+  }
+ .nopadding{
+   padding: 0px !important
+ }
+ .travel-insurance__image{
+   max-width: 100%;
+   height: auto;
+
+ }
+ .content-introduce__btn-section{
+  display: flex;
+  align-items: center;
+ }
+  .content-introduce__btn{
+    color: #fff !important;
+    font-weight: 600 !important
+  }
+  .content-introduce p{
+    margin-bottom: 0
+  }

@@ -1,0 +1,40 @@
+.header{
+    background:url('../image/bg-header.png');
+    position: relative;
+
+}
+.header-outer{
+    display: inline-block;
+    padding: 30px 0 0px 0
+}
+.header-inner{
+    display: flex;
+    justify-content: space-around;
+    background :url('../image/road.png');
+    background-size:contain;
+    background-repeat:no-repeat;  
+ 
+}
+.header-inner div{
+width: 20%
+}
+.header-inner div img{
+    max-width: 100%;
+    height: auto;
+}
+.header-inner div:nth-child(1) img{
+    max-width: 100%;
+}
+.header-inner div:nth-child(2) img{
+    max-width: 40%;
+    margin-top:17px 
+}
+.header-inner div:nth-child(3) img{
+    max-width: 20%;
+}
+.beside-img{
+    vertical-align: bottom;
+    max-width: 52% !important;
+    margin-left: -8px;
+}
+
